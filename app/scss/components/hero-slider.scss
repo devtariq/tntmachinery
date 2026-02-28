@@ -205,21 +205,21 @@
 
 
    .slide-item {
-      padding: 350px 0 250px;
+      padding: 190px 0 200px;
 
       @include media-breakpoint-down(xl) {
-         padding: 250px 0;
+         padding: 150px 0;
       }
 
       @include media-breakpoint-down(sm) {
-         padding: 140px 0 100px;
+         padding: 120px 0 80px;
       }
 
       @extend .overly;
 
       &::before {
          background: var(--dark);
-         opacity: .15;
+         opacity: .2;
          z-index: 1;
       }
 
